@@ -1,8 +1,9 @@
-db-read-write
-========
+# db-read-write
+This is a spring boot application which uses different data sources for read and write calls.
+No code change is required to implement it in existing application. Only Spring configuration
+needs to be changed. Based on transaction properties, read or write data source will be used at
+runtime.
 
-Building
---------
 
 # Start Database
   ```
