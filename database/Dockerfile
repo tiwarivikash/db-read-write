@@ -1,5 +1,5 @@
 FROM postgres:latest
 
-MAINTAINER vikash.tiwari@github.com
+MAINTAINER vikash.tiwari@gmail.com
 
 COPY init.sql /docker-entrypoint-initdb.d/
