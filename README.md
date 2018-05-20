@@ -4,6 +4,10 @@ No code change is required to implement it in existing application. Only Spring 
 needs to be changed. Based on transaction properties, read or write data source will be used at
 runtime.
 
+You can set a debug point at this line to verify which datasource is being used -
+https://github.com/spring-projects/spring-framework/blob/master/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java#L209
+
+
 
 # Start Database
   ```
