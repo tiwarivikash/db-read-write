@@ -10,6 +10,7 @@ Building
   docker build -t db .
   docker run -p 5432:5432 -d db
 
+
 # Start Application
   ```
   mvn spring-boot:run
