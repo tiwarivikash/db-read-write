@@ -9,12 +9,13 @@ Building
   cd database
   docker build -t db .
   docker run -p 5432:5432 -d db
-
+  ```
 
 # Start Application
   ```
   mvn spring-boot:run
 
+  ```
 
 
 # Post Request
@@ -32,6 +33,8 @@ Building
   	"salary": 2000
   }
 
+  ```
+
 
 # GET Request
   ```
@@ -39,3 +42,5 @@ Building
   Host: localhost:8080
   Accept: application/json
   Cache-Control: no-cache
+
+  ```
